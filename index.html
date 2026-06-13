@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>something</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="confess" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh;">
+
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3VzcWZ6OXFzbWxtaG40MnZpbTZmaG84aWFlZ25pNjdxeWJ5MTE3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/2lU6tBOcpb7omfJz1z/giphy.gif" alt="hellokitty" class="hellokityy">
+    <img src="https://media.giphy.com/media/o7IzLgYnRqjAKBUEmL/giphy.gif" id="cinnamon" alt="cinnamonroll" class="cinnamonroll">
+    <img src="https://media.giphy.com/media/JDD5yz5iGKPZTLOTU1/giphy.gif" id="peng" alt="penguin" class="penguin">
+    <img src="https://media.giphy.com/media/0ewXlZDMxpUtr6AOTg/giphy.gif" id="happy" alt="happydance" class="happydance" style="display:none;">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNrbXRnaTYxZHg0YTd3ZTdzNm92dG5qcm8yM2dlODR3OTA5dHdibiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o8dFvOoRM4PEfKOgo/giphy.gif" id="cute" alt="cutecat" class="cutecat" style="display:none;">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNrbXRnaTYxZHg0YTd3ZTdzNm92dG5qcm8yM2dlODR3OTA5dHdibiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QbQeDAEspJ5oCeGWJk/giphy.gif" id="cute2" alt="cutecat" class="cutecat2" style="display:none;">
+    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXNrbXRnaTYxZHg0YTd3ZTdzNm92dG5qcm8yM2dlODR3OTA5dHdibiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hgt1CzbIbHBvk9WILM/giphy.gif" id="cute3" alt="cutecat" class="cutecat3" style="display:none;">
+
+    <span class="petal">🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸</span>
+    <h1 id="hello">hello yelaa theres something i wanna say to you</h1>
+    <p class="conf-sub">There's something I've been wanting to say for a while now. Something that takes a little courage to admit.</p>
+    <p class="conf-question" id="question">do you like me??💌</p>
+
+    <div class="btn-row" id="btnRow">
+      <button class="yes" onclick="showYes()">Yes🌷</button>
+      <button class="no" id="noBtn" onmouseover="runAway()">No…</button><br>
+      <span class="petal">🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸</span>
+    </div>
+
+    <div id="response" style="display:none;">
+      <span class="heart">💖</span>
+      <p id="typed"></p>
+      <p id="revealSub" style="opacity:0;"><i>— from someone who cares 🌸</i></p>
+      
+    </div>
+
+    <div id="noResponse" style="display:none;">
+      <p>That's okay! Take your time. I'll be here whenever you're ready. 🌼</p>
+    </div>
+    <div id="popupMsg" style="display:none;">
+    <p>hey don't click no!! 🥺</p>
+            <button id="closeBtn" onclick="document.getElementById('popupMsg').style.display='none'">okayyyy🥺🥺</button>
+  </div>
+
+  </div>
+
+  
+  
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
